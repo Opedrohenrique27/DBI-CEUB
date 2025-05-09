@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0920D63E-0F05-DA03-1FEA-7CC593735A4C" name="emailCliente">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>6793F770-0D1B-E4AF-7849-BA9F135F05CA</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="8A0D3FFF-1ED5-E9B2-0456-C996052E6509">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>F91A72AC-28B1-2E04-1009-D070455DED08</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emailCliente" id="01737351-895A-028B-142A-3E11D854A74B">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>78F3E394-1217-EC16-96DF-0C08BCD2E80F</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_Clientes_ID" id="A3BDC073-8467-DBC9-2C56-D39D4C29C586">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F586302-4F78-72EC-29CF-CCC6E596E9B1" referredColumn="944154B4-0EC4-5A5C-DA79-B2EFE034A153"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD4EC316-677C-AA03-D515-ADA0B1BC4FD4" name="emailCliente_Clientes_FK">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>16D4E352-E940-DFD7-F89F-444C51CBC8AC</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3BDC073-8467-DBC9-2C56-D39D4C29C586"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

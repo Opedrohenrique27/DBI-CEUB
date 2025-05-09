@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6793F770-0D1B-E4AF-7849-BA9F135F05CA" name="emailCliente">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-08 23:52:16 UTC</createdTime>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="F91A72AC-28B1-2E04-1009-D070455DED08">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-08 23:52:31 UTC</createdTime>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emailCliente" id="78F3E394-1217-EC16-96DF-0C08BCD2E80F">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-08 23:52:47 UTC</createdTime>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

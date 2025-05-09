@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7E03C0E-C7E1-DD8A-5B85-B1EA1D330381" name="TelefoneCliente">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>9DCF2063-3C70-6351-5BD5-3337A8C30145</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="7A4CD94C-AF4F-E20A-11B3-FC96A6D87F3F">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>3A6F75B6-DCE4-4FA9-9833-575283087132</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="2F4F6F3F-50F5-F760-D6FF-8516E92B0A6B">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>C3F55F43-517E-4611-9711-19E94EA92522</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefoneCliente" id="FF9BF27B-193E-81F0-EBD5-DB0021E33AA7">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>E1E52184-DBDB-250B-2F64-161E828EC522</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_Clientes_ID" id="FDCB3E1E-0D2A-E059-9745-CE260D3265D6">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2F43EC6-3AB8-A395-E6BB-B57F3BE5D4B6" referredColumn="944154B4-0EC4-5A5C-DA79-B2EFE034A153"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FF05151-94EE-C6A0-E715-A04B023C13CA" name="TelefoneCliente_PK">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>255AF379-7F7D-BA85-FFE3-60AB7B676186</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A4CD94C-AF4F-E20A-11B3-FC96A6D87F3F"/>
+<colUsage columnID="2F4F6F3F-50F5-F760-D6FF-8516E92B0A6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D20EB22-44E8-B3A8-A8F6-A92A589DBB36" name="TelefoneCliente_Clientes_FK">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>5F588BCE-F49A-08F9-7A1B-E0ABBF402EA3</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDCB3E1E-0D2A-E059-9745-CE260D3265D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

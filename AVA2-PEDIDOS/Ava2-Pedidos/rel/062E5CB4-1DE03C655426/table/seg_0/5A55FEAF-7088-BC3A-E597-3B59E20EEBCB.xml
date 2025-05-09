@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A55FEAF-7088-BC3A-E597-3B59E20EEBCB" name="Pedidos">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>F91F0ADA-49ED-0F22-0228-F438B4691947</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroPedido" id="5A76A9C7-8549-FE9C-9A7E-CE13938AEE5C">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>EC8C5665-8B40-9BF2-3031-AE0E34A4FD51</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeClientePedido" id="F96A9067-9AEB-F9D8-5DCC-D4743D79ED5F">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<comment><![CDATA[Nome completo do cliente que realizou a compra.]]></comment>
+<generatorID>D3D28C7A-D448-31DB-984E-6A4EBB056ABA</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPedido" id="06069FE9-0B99-C43E-F420-0A87B222AF23">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<comment><![CDATA[Data do pedido que foi realizada a compra.]]></comment>
+<generatorID>A1696369-631B-6E2C-4043-5DF7895E9028</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaPedido" id="BFBE43D1-1EC5-C404-D182-D0C2DFD745DB">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<comment><![CDATA[Horário do pedido que foi realizada a compra.]]></comment>
+<generatorID>293001E9-329A-2CA0-8DB7-6F47912DE1C5</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_Clientes_ID" id="BA264380-3639-B0E9-0040-1FAB1DA3424F">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55CD5FD9-7531-C02D-DD01-D9AC57C28FEC" referredColumn="944154B4-0EC4-5A5C-DA79-B2EFE034A153"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A85E28C-1DCD-E295-1449-67FA9D8FD0DD" name="Pedidos_PK">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>91A56150-40DE-D416-B988-BD67891300DF</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A76A9C7-8549-FE9C-9A7E-CE13938AEE5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FD3B5D7-F09F-AECA-B19E-F8FC6DEB20C6" name="Pedidos_Clientes_FK">
+<createdBy>pedrohenrique027</createdBy>
+<createdTime>2025-05-09 00:23:21 UTC</createdTime>
+<generatorID>292A0EBC-A389-72E5-6768-3A186F3C4B4F</generatorID>
+<ownerDesignName>Ava2-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA264380-3639-B0E9-0040-1FAB1DA3424F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
