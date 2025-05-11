@@ -1,28 +1,24 @@
 # DBI-CEUB
 
-Repositório de projetos desenvolvidos por Pedro Henrique no contexto da disciplina de Banco de Dados I (DBI) no Centro Universitário de Brasília (CEUB).
+Repositório de projetos desenvolvidos por Pedro Henrique durante a disciplina de Banco de Dados I (DBI) no Centro Universitário de Brasília (CEUB).
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 O repositório contém os seguintes diretórios:
 
-- `AVA2-PEDIDOS`: Projeto relacionado a pedidos, possivelmente parte de uma avaliação (AVA2).
+- `AVA2-PEDIDOS`: Segunda avaliação da matéria.
 
-## 📌 Objetivo
+## Objetivo
 
-Este repositório visa armazenar e versionar os projetos desenvolvidos durante o curso de Banco de Dados I, facilitando o acompanhamento do progresso e a colaboração.
+Este repositório tem por objetivo armazenar e versionar os projetos desenvolvidos durante a matéria de Banco de Dados I, no curso de Análise e Desenvolvimento de Sistemas no uniCEUB.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - SQL
 - Ferramentas de modelagem de dados
 - Outras tecnologias pertinentes ao desenvolvimento de bancos de dados
 
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
-## 👤 Autor
+## Desenvolvedor
 
 - **Pedro Henrique** - [GitHub](https://github.com/Opedrohenrique27)
 
