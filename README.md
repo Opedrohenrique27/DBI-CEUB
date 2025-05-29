@@ -1,3 +1,9 @@
+Faltou a atividade AVA2-IMC!
+Alguns nomes dos projetos e os nomes dos commits não estão no padrão solicitado.
+Você tem 3 faltas!
+Na menção 3 o resultado funcional será fundamental.
+Bons estudos!
+
 # DBI-CEUB
 
 Repositório de projetos desenvolvidos por Pedro Henrique durante a disciplina de Banco de Dados I (DBI) no Centro Universitário de Brasília (CEUB).
